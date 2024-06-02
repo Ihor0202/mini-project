@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #divForPost {
+            /*border: black solid 2px;*/
+            background-color: #9d9d9d;
+            padding: 20px;
+            margin: 20px;
+        }
+        #commentsContainer {
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+        }
+        #commentsContainer > div {
+            border: #9d9d9d solid 2px;
+            background-color: #888888;
+            margin: 5px 5px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="divForPost">
+    <h1>Post</h1>
+</div>
+
+<div id="commentsContainer">
+</div>
+<script src="post-details.js"></script>
+</body>
+</html>
